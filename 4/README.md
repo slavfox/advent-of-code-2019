@@ -3,7 +3,7 @@
 In this case, the naive solution is too slow for me to try it even for fun.
 Regardless, here it is:
 
-```
+```prolog
 has_repeated_digit(Number) :-
     Number #>= 10,
     Tenth #= Number div 10,
