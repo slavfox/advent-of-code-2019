@@ -9,4 +9,3 @@ total_fuel(Mass, Fuel) :-
     total_fuel(ModuleFuel, FuelFuel),
     Fuel is ModuleFuel + FuelFuel.
 ```
-

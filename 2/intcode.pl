@@ -37,5 +37,5 @@ intcode([2, LAddr, RAddr, ResultAddr], InstructionPointer, Program, Result) :-
     intcode_multiply([LAddr, RAddr, ResultAddr], Program, NewProgram),
     intcode_next(InstructionPointer, NewProgram, Result).
 
-intcode_input(Noun, Verb, [I0, _, _, I3 | Program], FinalState) :-
-    intcode([I0, Noun, Verb, I3], 0, [I0, Noun, Verb, I3 | Program], FinalState).
+intcode_input(Noun, Verb, [I0, _, _, I3 | Program], Result) :-
+    intcode([I0, Noun, Verb, I3], 0, [I0, Noun, Verb, I3 | Program], Result).

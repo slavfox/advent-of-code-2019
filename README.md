@@ -17,7 +17,7 @@ Fish is the best shell btw.
 |[01](https://adventofcode.com/2019/day/1)|The Tyranny of the Rocket Equation|[solution](/1)|
 |[02](https://adventofcode.com/2019/day/2)|1202 Program Alarm|[solution](/2)|
 |[03](https://adventofcode.com/2019/day/3)|Crossed Wires|[solution](/3)|
-|[04](https://adventofcode.com/2019/day/4)|-|-|
+|[04](https://adventofcode.com/2019/day/4)|Secure Container|[solution](/4)|
 |[05](https://adventofcode.com/2019/day/5)|-|-|
 |[06](https://adventofcode.com/2019/day/6)|-|-|
 |[07](https://adventofcode.com/2019/day/7)|-|-|
