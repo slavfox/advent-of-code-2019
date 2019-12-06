@@ -12,13 +12,13 @@
 :- use_module(library(clpfd)).
 :- use_module(library(lists)).
 
-:- dynamic orbit/2.
-
 user:file_search_path(adventofcode, AdventOfCode) :-
     prolog_load_context(directory, Dir),
     file_directory_name(Dir, AdventOfCode).
 :- use_module(adventofcode(helpers/listutils)).
 
+
+:- dynamic orbit/2.
 
 parse_orbit(String, orbit(Satellite, Planet)) :-
     split_string(String, ")", "", [SPlanet,SSatellite]),

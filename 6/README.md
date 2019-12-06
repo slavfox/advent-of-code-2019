@@ -30,3 +30,19 @@ orbits(Satellite, Planet) :-
 ```
 
 Neat!
+
+---
+
+Lines of code:
+
+* **`orbits.pl`:**
+
+  * 47 total - 10 `module/2` - 6 `use_module/1` = 31
+
+* **Part 1:**
+  * `main/1`: 8
+
+* **Part 2:**
+  * `main/1`: 9
+
+Total: 31 + 9 = 40

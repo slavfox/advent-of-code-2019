@@ -17,5 +17,5 @@ main([InputFile]) :-
     maplist(asserta, Orbits),
     unique_satellites(Orbits, Sats),
     maplist(count_orbits, Sats, OrbitCount),
-    sum(OrbitCount, #=, Count),
+    sum_list(OrbitCount, Count),
     write(Count).

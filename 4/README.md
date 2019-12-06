@@ -37,3 +37,19 @@ main([InputFile]) :-
 This solution isn't particularly great, but it's Good Enough for me to just
 leave it as-is.
 As usual, all the meat is in a separate file: [passwords.pl](./passwords.pl).
+
+---
+
+Lines of code:
+
+* **`passwords.pl`:**
+
+  * 43 total - 4 `use_module/1` = 39
+
+* **Part 1:**
+  * `main/1`: 7
+
+* **Part 2:**
+  * `main/1`: 7
+
+Total: 7 + 39 = 46

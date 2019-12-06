@@ -23,27 +23,22 @@ $ time ./part1.pl input.txt
 
 Part2 wasn't particularly hard, since I could abuse Prolog's near-untypedness to
 reuse most predicate clauses, and only write new ones for the alternate distance
-calculation method. This results in the entire difference between
-[part1.pl](./part1.pl) and [part2.pl](./part2.pl) being just
-
-```diff
-diff --git 1/part1.pl 2/part2.pl
-index 9a8d621..7c2524e 100755
---- 1/part1.pl
-+++ 2/part2.pl
-@@ -12,8 +12,8 @@ main([InputFile]) :-
-     Row2 =.. [_|Atoms2],
-     maplist(atom_direction, Atoms1, Dirs1),
-     maplist(atom_direction, Atoms2, Dirs2),
--    segments(Dirs1, Segments1),
--    segments(Dirs2, Segments2),
-+    segments_distance_travelled(Dirs1, Segments1),
-+    segments_distance_travelled(Dirs2, Segments2),
-     intersections(Segments1, Segments2, Intersections),
-     closest_point(Intersections, Result),
-     write(Result).
-```
-
-Nice!
+calculation method.
 
 As usual, all the meat is in a separate file: [wires.pl](./wires.pl).
+
+---
+
+Lines of code:
+
+* **`wires.pl`:**
+
+  * 135 total - 10 `module/2` - 2 `use_module/1` = 132
+
+* **Part 1:**
+  * `main/1`: 11
+
+* **Part 2:**
+  * `main/1`: 11
+
+Total: 11 + 132 = 143

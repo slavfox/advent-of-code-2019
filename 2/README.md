@@ -8,3 +8,19 @@ $ time ./part2.pl input.txt
 6472       11.87 real        11.73 user         0.02 sys
 ```
 I expected times at least an order of magnitude slower.
+
+---
+
+Lines of code:
+
+* **`intcode.pl`:**
+
+  * 30 total - 6 imports - 1 `module/2` = 24
+
+* **Part 1:**
+  * `main/1`: 5
+
+* **Part 2:**
+  * `main/1`: 8
+
+Total: 24 + 8 = 32
