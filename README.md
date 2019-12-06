@@ -19,7 +19,7 @@ Fish is the best shell btw.
 |[03](https://adventofcode.com/2019/day/3)|Crossed Wires|[solution](/3)|
 |[04](https://adventofcode.com/2019/day/4)|Secure Container|[solution](/4)|
 |[05](https://adventofcode.com/2019/day/5)|Sunny with a Chance of Asteroids|[solution](/5)|
-|[06](https://adventofcode.com/2019/day/6)|-|-|
+|[06](https://adventofcode.com/2019/day/6)|Universal Orbit Map|[solution](/6)|
 |[07](https://adventofcode.com/2019/day/7)|-|-|
 |[08](https://adventofcode.com/2019/day/8)|-|-|
 |[09](https://adventofcode.com/2019/day/9)|-|-|

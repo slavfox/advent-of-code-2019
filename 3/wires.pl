@@ -149,9 +149,9 @@ closest_point([point(X, Y) | Points], LocalMinimum, Result) :-
         closest_point(Points, LocalMinimum, Result)
     ).
 % for points_with_distance
-closest_point([point_with_distance(_, _, D) | Points], inf, Result) :-
+closest_point([point_with_distance(_, _, D)|Points], inf, Result) :-
     closest_point(Points, D, Result).
-closest_point([point_with_distance(_, _, D) | Points], LocalMinimum, Result) :-
+closest_point([point_with_distance(_, _, D)|Points], LocalMinimum, Result) :-
     (
         D #< LocalMinimum
     ->
